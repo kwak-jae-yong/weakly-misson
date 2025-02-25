@@ -87,7 +87,7 @@ const foodswipe = new Swiper(".card-slider", {
             slidesPerView: 5,
             spaceBetween: 10,
         },
-        1800: {
+        1440: {
             slidesPerView: 5,
             spaceBetween: 10,
         },
