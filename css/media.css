@@ -273,16 +273,7 @@
 
     }
 
-    .chef ul.chef_list {
-        gap: 3rem;
-        width: 100%;
-    }
-
-    .chef ul.chef_list li {
-        width: calc(50% - 1.5rem);
-
-    }
-
+    
     header .nav_list {
         display: flex;
         position: static;
@@ -294,34 +285,34 @@
     .header_btn {
         display: none;
     }
-
+    
     header .rel {
         padding: 1rem;
     }
-
+    
     .hero .rel {
         gap: 2rem;
     }
 /*food*/
-    .food .tit_wrap {
+.food .tit_wrap {
     gap: 3rem;
-    }
-    .food .tit_wrap p {
-        font-size: 1.8rem;
-    }
+}
+.food .tit_wrap p {
+    font-size: 1.8rem;
+}
 
-    .food .tit_wrap h2 {
-        font-size: 4.5rem;
+.food .tit_wrap h2 {
+    font-size: 4.5rem;
 
-    }
+}
     .card_wrap .menu {
         width: 15rem;
         height: 2.3rem;
         font-size: 1.2rem;
     }
-
+    
     .food .card_wrap a {
-
+        
         padding: 0;
         width: 18rem;
         height: 32rem;
@@ -334,101 +325,42 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-
+        
+        
     }
-
-
-
+    
+    
+    
     .food .card_wrap .img_wrap {
         width: 15rem;
         height: 11rem;
     }
-
+    
     .card_wrap.aos-init.aos-animate {
         width: 94rem;
         height: 32rem;
     }
     /*food end*/
-
-    /* chef */
-
-    .chef .chef_list {
-        gap: 2rem;
-    }
-
-    .chef ul h2 {
-        font-size: 4rem;
-        margin-bottom: 3rem;
-    }
-
-    .chef ul li p.time2 {
-        padding: 0.8rem 1rem;
-        margin-top: 2rem;
-        font-size: 2rem;
-        border-radius: 0.5rem;
-    }
-
-    .chef p.ex {
-        width: auto;
-        margin-top: 1.8rem;
-        font-size: 1.6rem;
-    }
-
-    .chef .img_wrap {
-        margin-right: 2.5rem;
-    }
-
-    .chef ul .chef_btn {
-        width: 9.2rem;
-        height: 4.5rem;
-    }
-
-    .chef .tit_wrap {
-        padding: 0 0 6.4rem 0;
-    }
-
-    /* .chef .img_wrap {
-        width: 26rem;
-        height: 26rem;
-    } */
-
-    .chef h2 {
-        font-size: 4.5rem;
-    }
-
-    .chef ul li p.time2 {
-        padding: 0.8rem 1rem;
-        margin-top: 2rem;
-        /* font-size: 2rem; */
-        border-radius: 0.5rem;
-        width: 30rem;
-        text-align: left;
-    }
-
-    .chef ul .chef_btn {
-        width: 7.2rem;
-        height: 3.5rem;
-    }
-
+    
+    
     /* footer */
 
     footer {
         height: 18rem;
     }
-
+    
     footer .rel {
         position: relative;
         display: flex;
         gap: 4rem;
         align-items: center;
     }
-
+    
     footer .rel h3 img {
         width: 12rem;
         height: 12rem;
     }
-
+    
     footer .rel p.phone {
         position: absolute;
         order: 2;
@@ -443,7 +375,7 @@
         font-size: 1.5rem;
         color: #D7D7D7;
     }
-
+    
     footer .footerimg {
         position: absolute;
         top: 3rem;
@@ -458,20 +390,20 @@
     .sns_wrap h2 {
         font-size: 4.5rem;
     }
-
+    
     .sns_wrap p {
         font-size: 2rem;
     }
-
+    
     .sns_wrap .sns-slider-wrap {
         width: 90rem;
     }
-
+    
     .sns-slider-wrap .swiper-slide a {
         width: 25rem;
         height: 25rem;
     }
-
+    
     .sns_wrap .swiper-button-next {
         right: 4rem;
         top: 40rem;
@@ -483,7 +415,7 @@
     }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1140px) {
     /* map */
     .map_wrap {
         display: flex;
@@ -491,14 +423,14 @@
         align-items: center;
         margin: auto;
     }
-
+    
     .map_wrap .txt_wrap {
         display: flex;
         align-items: flex-start;
         gap: 2.6rem;
         width: 45rem;
     }
-
+    
     .map_wrap .txt_wrap h2 {
         font-size: 4.5rem;
         line-height: 4.5rem;
@@ -507,7 +439,7 @@
     .map_wrap .txt_wrap p {
         font-size: 1.8rem;
     }
-
+    
     .map_wrap div.rel {
         display: flex;
         justify-content: center;
@@ -516,7 +448,7 @@
         margin: auto;
         /* gap: 4rem; */
     }
-
+    
     .content_wrap {
         display: flex;
         flex-direction: column;
@@ -530,11 +462,11 @@
         width: 40rem;
         height: 21rem;
     }
-
+    
     .zone_list li a p {
         font-size: 2rem;
     }
-
+    
     div.num_box {
         font-size: 1.5rem;
         width: 2.5rem;
@@ -545,19 +477,19 @@
         width: 61rem;
         height: 22rem;
     }
-
+    
     ul.location_wrap {
         left: 10.2rem;
         top: 2.6rem;
         height: 167%;
     }
-
+    
     ul.location_wrap .num {
         width: 2.2rem;
         height: 2.2rem;
         font-size: 1.5rem;
     }
-
+    
     ul.zone_list {
         width: auto
     }
@@ -566,7 +498,7 @@
         width: 48%;
         margin: 0;
     }
-
+    
     ul.zone_list li a {
         width: 15rem;
         margin-bottom: 1.6rem;
@@ -578,7 +510,7 @@
         top: -3.2rem;
         left: 5.2rem;
     }
-
+    
     .road {
         width: 100%;
         height: 30rem;
@@ -587,34 +519,102 @@
         left: 0;
         top: 0;
     }
-
+    
     .tree1,
     .tree2,
     .tree3 {
         width: 6rem;
         height: 6rem;
     }
-
+    
     .tree2 {
         top: 45%;
         left: 4rem;
     }
-
+    
     .tree3 {
         top: 21rem;
         right: 8.5rem;
         z-index: 1;
     }
-
+    
     .person {
         width: 6.7rem;
         height: 6.7rem;
         right: 2rem;
         top: 23rem;
     }
-
+    
     /* map */
-
+    /* chef */
+    
+    .chef .chef_list {
+        gap: 2rem;
+    }
+    
+    .chef ul h2 {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+    }
+    
+    .chef ul.chef_list {
+        gap: 3rem;
+        width: 100%;
+    }
+    
+    .chef ul.chef_list li {
+        width: calc(50% - 1.5rem);
+    
+    }
+    .chef ul li p.time2 {
+        padding: 0.8rem 1rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        border-radius: 0.5rem;
+    }
+    
+    .chef p.ex {
+        width: auto;
+        margin-top: 1.8rem;
+        font-size: 1.6rem;
+    }
+    
+    .chef .img_wrap {
+        margin-right: 2.5rem;
+    }
+    
+    .chef ul .chef_btn {
+        width: 9.2rem;
+        height: 4.5rem;
+    }
+    
+    .chef .tit_wrap {
+        padding: 0 0 6.4rem 0;
+    }
+    
+    /* .chef .img_wrap {
+        width: 26rem;
+        height: 26rem;
+    } */
+    
+    .chef h2 {
+        font-size: 4.5rem;
+    }
+    
+    .chef ul li p.time2 {
+        padding: 0.8rem 1rem;
+        margin-top: 2rem;
+        /* font-size: 2rem; */
+        border-radius: 0.5rem;
+        width: 30rem;
+        text-align: left;
+    }
+    
+    .chef ul .chef_btn {
+        width: 7.2rem;
+        height: 3.5rem;
+    }
+    
 }
 
 @media screen and (min-width: 1440px) {
